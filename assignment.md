@@ -14,6 +14,6 @@ Your login name: altschool i.e., home directory /home/altschool. The home direct
 | J    | Lock a users password                                                                             | **sudo passwd -l UserA**                                          | ![1707568543340](image/assignment/1707568543340.png) |
 | K    | Create a user with no login shell                                                                 | **sudo useradd -M -s /usr/sbin/nologin UserA**                    | ![1707568801868](image/assignment/1707568801868.png) |
 
-| L | Disable password based authentication for ssh:**sudo nano /etc/ssh/sshd_config** | ![1707569076239](image/assignment/1707569076239.png) |
-| - | -------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| M | Disable root login for ssh:sudo nano /etc/ssh/sshd_config                              | ![1707569216507](image/assignment/1707569216507.png) |
+| L | Disable password based authentication for ssh | sudo nano /etc/ssh/sshd_config | ![1707569076239](https://file+.vscode-resource.vscode-cdn.net/Users/raymond/Desktop/cloudassignment/image/assignment/1707569076239.png) |
+| - | --------------------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| M | Disable root login for ssh                    | sudo nano /etc/ssh/sshd_config | ![1707569216507](https://file+.vscode-resource.vscode-cdn.net/Users/raymond/Desktop/cloudassignment/image/assignment/1707569216507.png) |
